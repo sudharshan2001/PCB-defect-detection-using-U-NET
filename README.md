@@ -1,6 +1,10 @@
 # PCB-defect-detection-using-U-NET
 Semantic Segmentation using U-NET
 
+* Training the model.ipynb <-- Architecture and Model Parameter details
+* Plotting the predicted model.ipynb <-- Using the trained model and plotting the Predicted images.
+* utils.py <-- Script for bounding box extraction from XML file and plotting the bounding box
+
 # Dataset Description
   6 types of defects are made by photoshop ,. The defects defined in the dataset are: missing hole, mouse bite, open circuit, short, spur, and spurious copper. The augmented dataset contains 10668 images and the corresponding annotation files. 
 
