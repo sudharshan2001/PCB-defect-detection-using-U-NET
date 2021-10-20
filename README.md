@@ -2,7 +2,7 @@
 Semantic Segmentation using U-NET
 
 # Dataset Description
-  6 types of defects are made by photoshop , a graphics editor published by Adobe Systems. The defects defined in the dataset are: missing hole, mouse bite, open circuit, short, spur, and spurious copper. The augmented dataset contains 10668 images and the corresponding annotation files. 
+  6 types of defects are made by photoshop ,. The defects defined in the dataset are: missing hole, mouse bite, open circuit, short, spur, and spurious copper. The augmented dataset contains 10668 images and the corresponding annotation files. 
 
 # Approach
   Using U-Net to perform semantic segmentation on Masked PCB images. These annotated images is encoded and decoded in U-Net. The encoder is  used to extract the factors in the image. The second part decoder uses transposed convolution to permit localization.
